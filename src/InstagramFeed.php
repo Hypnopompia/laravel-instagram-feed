@@ -6,7 +6,8 @@ use ArrayIterator;
 use Countable;
 use Illuminate\Support\Collection;
 use IteratorAggregate;
-
+use Traversable
+    
 class InstagramFeed implements IteratorAggregate, Countable
 {
 
